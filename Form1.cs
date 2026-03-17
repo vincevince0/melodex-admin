@@ -49,6 +49,7 @@ namespace MelodexAdmin
             passwordTextBox.Location = new Point(406, 200);
             passwordTextBox.Text = "Password";
             passwordTextBox.Name = "PasswordTextBox";
+            passwordTextBox.UseSystemPasswordChar = false;
 
             passwordTextBox.Enter += passwordTextBox_Enter;
             passwordTextBox.Leave += passwordTextBox_Leave;
@@ -93,7 +94,9 @@ namespace MelodexAdmin
             if (passwordTextBox.Text == "Password")
             {
                 passwordTextBox.Text = "";
+                passwordTextBox.UseSystemPasswordChar = true;
             }
+            
         }
  
 
@@ -104,6 +107,7 @@ namespace MelodexAdmin
             if (string.IsNullOrWhiteSpace(passwordTextBox.Text))
             {
                 passwordTextBox.Text = "Password";
+                passwordTextBox.UseSystemPasswordChar = false;
             }
         }
 

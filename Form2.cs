@@ -41,6 +41,7 @@ namespace MelodexAdmin
         {
             string sql = "";
             sql = "SELECT * from albums";
+
         }
 
         private void slct_songs_Click(object sender, EventArgs e)
