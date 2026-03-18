@@ -39,9 +39,9 @@
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(13, 184);
+            this.panel1.Location = new System.Drawing.Point(13, 92);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(775, 254);
+            this.panel1.Size = new System.Drawing.Size(786, 346);
             this.panel1.TabIndex = 0;
             // 
             // slct_users

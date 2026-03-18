@@ -15,6 +15,40 @@ namespace MelodexAdmin
     public partial class melodex_admin : Form
     {
         private MyDB kapcs;
+
+        class Albums
+        {
+            public int id, year, artist_id;
+            public string name, cover, genre;
+        }
+        class Artists
+        {
+            public int id;
+            public string name, nationality, image, description;
+            public bool is_band;
+        }
+        class Members
+        {
+            public int id;
+            public string name, artist_id;
+        }
+        class Songs
+        {
+            public int id, album_id;
+            public string name, lyrics, songwriter;
+        }
+        class Users
+        {
+            public int id;
+            public string name, email; //password nem kell
+        }
+        
+
+        private List<Albums> albums = new List<Albums>();
+        private List<Artists> artists= new List<Artists>();
+        private List<Members> members = new List<Members>();
+        private List<Songs> songs = new List<Songs>();
+        private List<Users> users = new List<Users>();
         public melodex_admin()
         {
             InitializeComponent();
