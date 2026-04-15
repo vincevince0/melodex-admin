@@ -66,34 +66,12 @@ namespace MelodexAdmin
             kapcs = new MyDB($"server={options.Host};userid={options.FNév};password={options.Jelszó};charset=utf8;database=melodex");
         }
 
-        private void slct_users_Click(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void slct_albums_Click(object sender, EventArgs e)
-        {
-            string sql = "";
-            sql = "SELECT * from albums";
-
-        }
-
-        private void slct_songs_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void slct_members_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void slct_artists_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void slct_reports_Click(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
