@@ -43,10 +43,8 @@ namespace MelodexAdmin
             public string name, email; //password nem kell
         }
         
-
         private List<Albums> albums = new List<Albums>();
         private List<Artists> artists= new List<Artists>();
-        private List<Members> members = new List<Members>();
         private List<Songs> songs = new List<Songs>();
         private List<Users> users = new List<Users>();
         public melodex_admin()
@@ -68,12 +66,23 @@ namespace MelodexAdmin
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            selected_table_label.Text = "Jelenleg kiválasztott tábla: "+comboBox1.Text;
         }
 
+        //
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonOK_Click(object sender, EventArgs e)
+        {
+            kapcs.Connection.Open();
         }
     }
 }

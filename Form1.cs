@@ -62,7 +62,7 @@ namespace MelodexAdmin
         {
             melodex_admin melodexadmin = new melodex_admin();
 
-            melodexadmin.FormClosed += (s, args) => this.Close(); 
+            melodexadmin.FormClosed += (s, args) => this.Close();
 
             this.Hide();
             melodexadmin.Show();

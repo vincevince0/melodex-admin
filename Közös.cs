@@ -29,7 +29,7 @@ namespace MelodexAdmin
         {
             try
             {
-                MyDB kapcs = new MyDB($"server={host};userid={fnév};password={jelszó};charset=utf8;database=feladatbank");
+                MyDB kapcs = new MyDB($"server={host};userid={fnév};password={jelszó};charset=utf8;database=melodex");
                 kapcs.Open();
                 kapcs.Close();
                 return true;

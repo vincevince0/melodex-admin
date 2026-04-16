@@ -125,3 +125,4 @@ D:\Hártó Vincze 13.i\melodex-admin\obj\Debug\MelodexAdmin.csproj.CoreCompileIn
 D:\Hártó Vincze 13.i\melodex-admin\obj\Debug\MelodexAdmin.csproj.CopyComplete
 D:\Hártó Vincze 13.i\melodex-admin\obj\Debug\MelodexAdmin.exe
 D:\Hártó Vincze 13.i\melodex-admin\obj\Debug\MelodexAdmin.pdb
+D:\Hártó Vince 13.i\melodex-admin\obj\Debug\MelodexAdmin.Form3.resources
