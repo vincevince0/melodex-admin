@@ -50,7 +50,7 @@ namespace MyDatabaseMySQL
         /// <summary>
         /// Kapcsolódási objektum a MySQL szerverhez
         /// </summary>
-        private MySqlConnection connection;
+        public MySqlConnection connection;
         public MySqlConnection Connection { get => connection; }
 
         MySqlTransaction transaction = null;

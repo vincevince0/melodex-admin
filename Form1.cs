@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MyDatabaseMySQL;
 //using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace MelodexAdmin
@@ -31,6 +32,7 @@ namespace MelodexAdmin
             LoginBtn.Name = "LoginBtn";
             contentPanel.Controls.Add(LoginBtn);
 
+            this.AcceptButton = LoginBtn;
             LoginBtn.Click += LoginBtn_Click;
 
             TextBox emailTextBox = new TextBox();
@@ -55,18 +57,66 @@ namespace MelodexAdmin
             passwordTextBox.Leave += passwordTextBox_Leave;
 
             contentPanel.Controls.Add(passwordTextBox);
+
+            PictureBox logo = new PictureBox();
+            logo.Size = new Size(155, 124);
+            logo.Location = new Point(817, 325);
+            logo.SizeMode = PictureBoxSizeMode.Zoom;
+            logo.BackColor = Color.Transparent;
+
+            try
+            {
+                logo.Image = Image.FromFile("angled_view.png");
+            }
+            catch { }
+
+            contentPanel.Controls.Add(logo);
         }
 
         //login buttons
-        private void LoginBtn_Click(object sender, EventArgs e)
+            private void LoginBtn_Click(object sender, EventArgs e)
         {
-            melodex_admin melodexadmin = new melodex_admin();
+            // 1. Get the values from the TextBoxes
+            // Since you added them to 'contentPanel', we find them by name
+            string inputEmail = contentPanel.Controls["EmailTextBox"].Text;
+            string inputPass = contentPanel.Controls["PasswordTextBox"].Text;
 
-            melodexadmin.FormClosed += (s, args) => this.Close();
+            // 2. Load DB connection settings from options.txt
+            Options opt = Közös.KapcsolódásiAdatokBeolvasása();
 
-            this.Hide();
-            melodexadmin.Show();
+            try
+            {
+                // 3. Initialize the database connection
+                MyDB db = new MyDB($"server={opt.Host};userid={opt.FNév};password={opt.Jelszó};charset=utf8;database=melodex");
+
+                // 4. SQL Query: Look for the user with ID 2 and matching credentials
+                // Note: In a real app, use hashing! For now, we compare plain text.
+                string sql = $"SELECT * FROM users WHERE id = 2 AND email = '{inputEmail}' AND name = '{inputPass}'";
+
+                DataTable dt = db.SelectDataTableGUI(sql);
+
+                // 5. Check if we found a match
+                if (dt.Rows.Count > 0)
+                {
+                    MessageBox.Show("Sikeres bejelentkezés, Admin!");
+
+                    // Open the admin form
+                    melodex_admin adminForm = new melodex_admin();
+                    adminForm.FormClosed += (s, args) => this.Close();
+                    this.Hide();
+                    adminForm.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Helytelen adatok vagy nincs admin jogosultságod!");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Hiba a csatlakozás során: " + ex.Message);
+            }
         }
+        
         private void emailTextBox_Enter(object sender, EventArgs e)
         {
             TextBox emailTextBox = sender as TextBox;
