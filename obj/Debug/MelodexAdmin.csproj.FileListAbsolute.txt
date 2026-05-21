@@ -162,7 +162,6 @@ C:\Users\PC\Desktop\Programozás\melodex-admin\bin\Debug\System.Threading.Tasks.
 C:\Users\PC\Desktop\Programozás\melodex-admin\obj\Debug\MelodexAdmin.csproj.AssemblyReference.cache
 C:\Users\PC\Desktop\Programozás\melodex-admin\obj\Debug\MelodexAdmin.Form1.resources
 C:\Users\PC\Desktop\Programozás\melodex-admin\obj\Debug\MelodexAdmin.melodex_admin.resources
-C:\Users\PC\Desktop\Programozás\melodex-admin\obj\Debug\MelodexAdmin.Form3.resources
 C:\Users\PC\Desktop\Programozás\melodex-admin\obj\Debug\MelodexAdmin.Properties.Resources.resources
 C:\Users\PC\Desktop\Programozás\melodex-admin\obj\Debug\MelodexAdmin.csproj.GenerateResource.cache
 C:\Users\PC\Desktop\Programozás\melodex-admin\obj\Debug\MelodexAdmin.csproj.CoreCompileInputs.cache

@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|c:\\users\\pc\\desktop\\programoz\u00E1s\\melodex-admin\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|c:\\users\\pc\\desktop\\programoz\u00E1s\\melodex-admin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,19 +19,7 @@
       "RelativeMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|c:\\users\\pc\\desktop\\programoz\u00E1s\\melodex-admin\\mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{611A1E32-EF2E-424F-B490-9FDE65733E57}|MelodexAdmin.csproj|solutionrelative:mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 500,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "MyDB.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\MyDB.cs",
               "RelativeDocumentMoniker": "MyDB.cs",
@@ -54,12 +46,11 @@
               "RelativeToolTip": "MyDB.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwDQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T04:30:17.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T04:30:17.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "K\u00F6z\u00F6s.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\K\u00F6z\u00F6s.cs",
               "RelativeDocumentMoniker": "K\u00F6z\u00F6s.cs",
@@ -67,50 +58,24 @@
               "RelativeToolTip": "K\u00F6z\u00F6s.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAowDIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T11:25:27.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T11:25:27.842Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form3.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\Form3.cs",
-              "RelativeDocumentMoniker": "Form3.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\Form3.cs",
-              "RelativeToolTip": "Form3.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T11:59:03.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\Form3.cs",
-              "RelativeDocumentMoniker": "Form3.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\Form3.cs [Design]",
-              "RelativeToolTip": "Form3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T11:52:00.493Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\Form2.cs",
               "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAANEAAAAAAAAAAAAYwPgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAwOEAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T12:38:59.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
@@ -122,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -135,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Programoz\u00E1s\\melodex-admin\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

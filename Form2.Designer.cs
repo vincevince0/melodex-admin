@@ -74,8 +74,7 @@
             "Users",
             "Albums",
             "Songs",
-            "Artists",
-            "Reports"});
+            "Artists"});
             this.comboBox1.Location = new System.Drawing.Point(16, 12);
             this.comboBox1.MinimumSize = new System.Drawing.Size(10, 0);
             this.comboBox1.Name = "comboBox1";
